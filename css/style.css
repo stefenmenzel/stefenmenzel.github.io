@@ -1,0 +1,41 @@
+.currentProjectTitle{
+    margin-bottom: 30px !important;
+}
+
+.slides{    
+    max-width: 80%;
+    max-height: 80%;
+
+    display:block;
+    margin: auto;
+}
+
+.carouselContainer{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.slideButtons{
+    width: 80%;
+    margin:auto;
+    margin-top: 5px;
+
+}
+
+.slideButtonLeft{
+    width: 45%;
+    float: left;
+    display: inline-block;
+}
+
+.slideButtonRight{
+    width: 45%;
+    float:right;
+    display:inline-block;
+}
+
+.projectSchpeel{
+    width:80%;
+    margin:auto;
+}
