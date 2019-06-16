@@ -1,10 +1,8 @@
-console.log("we here");
 window.addEventListener('load', ready);
 
 let slideIndex = 1;
 
-function ready(){
-    console.log('running ready now');
+function ready(){    
     showDivs(slideIndex);
 }
 
@@ -13,8 +11,7 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-    let x = document.getElementsByClassName("slides");
-    console.log("showDivs has ran", x.length);    
+    let x = document.getElementsByClassName("slides");    
     
     if(n > x.length){
         slideIndex = 1;
